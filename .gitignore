@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.local
+
+# Generated artefacts
+backend/generated_reports/
+*.pdf
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.local
+
+# Deploy tool caches
+.vercel/
+.render/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE / OS / agent tools
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
